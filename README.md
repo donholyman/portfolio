@@ -1,16 +1,29 @@
-# Premium Portfolio Website
+# Stephen Michael — Portfolio
 
-A responsive, static personal portfolio ready for GitHub Pages.
+A refreshed responsive portfolio, adapted from the original portfolio uploaded by Stephen Michael. Built with plain HTML, CSS, and JavaScript; no PHP or build process is required.
+
+## Preview locally
+
+Double-click `index.html` to open in a browser.
+
+## Publish with GitHub Pages
+
+1. Open your `portfolio` repository on GitHub.
+2. Upload the **contents** of this folder into the root of the repository (not inside a nested folder): `index.html`, `style.css`, `script.js`, `mycv.pdf`, `assets/`, `README.md`.
+3. If a file with the same name already exists, replace/update it. Ensure no old styles override the new ones.
+4. In **Settings → Pages**, choose **Deploy from a branch**, `main`, `/(root)`, and save.
+5. Visit `https://donholyman.github.io/portfolio/` after a successful deployment.
 
 ## Personalize
 
-1. Open `script.js` and edit the `portfolio` object near the top: name, role, email, links, biography, and projects.
-2. Replace `assets/profile.svg` with your photo (e.g. `assets/me.jpg`) and change `profilePhoto` in `script.js` to `assets/me.jpg`.
-3. Edit the sample experience timeline in `index.html` and adjust skills if needed.
-4. Upload `index.html`, `styles.css`, `script.js`, and the `assets` folder to the **root** of your GitHub repository.
-5. In repository **Settings → Pages**, deploy from branch `main` and folder `/ (root)`.
-6. Visit `https://donholyman.github.io/viva-lms/` after deployment.
+- Update intro and about text in `index.html` to match your present experience.
+- Add real project cards in the `#work` section, replacing the design explorations; add verified URLs only.
+- Replace `assets/profile.jpg` if you prefer another portrait.
+- Replace `mycv.pdf` with an up-to-date CV — the current copy is preserved from the original upload.
+- Confirm that the public email `Donholyman@gmail.com` is still the one you want displayed.
+- The Viva LMS visual is an illustrative concept, **not** an actual screenshot; replace it with a screenshot when available.
+- Career claims, education, and credentials from the older site have not been independently verified. Only include claims you can substantiate.
 
-**Important:** This portfolio is HTML/CSS/JavaScript only. GitHub Pages does not execute PHP or connect to MySQL. The contact button opens the visitor's email app; it does not submit a server-side form.
+## Details
 
-Sample milestones and project cards are placeholders. Replace them with your real information before sharing your site.
+No contact form backend is used. The email contact link opens the visitor's mail app. PHP and MySQL projects can be linked on GitHub, but running them requires separate PHP-compatible hosting.
